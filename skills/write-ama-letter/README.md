@@ -11,11 +11,11 @@ npx skills add yuan-yiming/agent-skills@write-ama-letter -g -y
 ## 触发
 
 - `@write-ama-letter`
-- 「侨批」「给阿嬷的情书风格」「write ama letter」
+- 「给阿嬷的情书风格」「write ama letter」
 
 ## 示例
 
-**输入**：跟对象说，今晚加班到很晚，不回去吃饭了，也没法陪你过情人节了。
+**输入**：参考给阿嬷的情书风格，跟对象说，今晚加班到很晚，不回去吃饭了，也没法陪你过情人节了。
 
 **输出**：
 
