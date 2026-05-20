@@ -2,9 +2,14 @@
 
 将现代内容改写为电影《给阿嬷的情书》侨批格式的书信。
 
+## 安装
+
+```bash
+npx skills add yuan-yiming/agent-skills@write-ama-letter -g -y
+```
+
 ## 触发
 
-- `/write-ama-letter ...`
 - `@write-ama-letter`
 - 「侨批」「给阿嬷的情书风格」「write ama letter」
 

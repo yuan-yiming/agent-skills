@@ -19,7 +19,19 @@
 
 4. 更新根目录 [README.md](README.md) 索引表
 
-5. 本地验证：安装到你在用的 Agent 的 skills 目录，跑一条真实 prompt
+5. 本地验证：
+
+   ```powershell
+   .\scripts\install.ps1 my-new-skill
+   ```
+
+   push 到 GitHub 后，用 CLI 验证（与用户使用方式一致）：
+
+   ```bash
+   npx skills add yuan-yiming/agent-skills@my-new-skill -g -y
+   ```
+
+   在 Cursor 里 `@my-new-skill` 试一条 prompt。
 
 ## 发布前检查
 
