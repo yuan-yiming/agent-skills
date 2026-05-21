@@ -15,6 +15,8 @@ npx skills add yuan-yiming/agent-skills@write-ama-letter -g -y
 
 ## 示例
 
+Agent 会用 **Markdown 代码块**输出，以保留侨批的分行排版（勿直接贴段落，否则换行会被合并）。
+
 **输入**：参考给阿嬷的情书风格，跟对象说，今晚加班到很晚，不回去吃饭了，也没法陪你过情人节了。
 
 **输出**：
